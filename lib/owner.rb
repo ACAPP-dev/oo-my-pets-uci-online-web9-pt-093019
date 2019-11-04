@@ -9,7 +9,7 @@ class Owner
     species
   end
 
-  def species
+  def species=
     self.species = "human"
   end
 
