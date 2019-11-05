@@ -11,7 +11,7 @@ class Owner
   end
 
   def species=(type = "human")
-    self.species = type
+    @species = type
 
   end
 
