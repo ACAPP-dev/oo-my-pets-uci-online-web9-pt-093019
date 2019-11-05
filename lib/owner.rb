@@ -7,11 +7,12 @@ class Owner
   def initialize(name)
     @name = name
     self.species
+    binding.pry
   end
 
   def species=
     self.species = "human"
-    binding.pry
+
   end
 
 
