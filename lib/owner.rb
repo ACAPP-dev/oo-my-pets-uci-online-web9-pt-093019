@@ -11,6 +11,7 @@ class Owner
 
   def species=
     self.species = "human"
+    binding.pry
   end
 
 
