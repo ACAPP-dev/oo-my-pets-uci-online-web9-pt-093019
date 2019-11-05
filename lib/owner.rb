@@ -6,11 +6,11 @@ class Owner
 
   def initialize(name)
     @name = name
-    self.species
+    species
     binding.pry
   end
 
-  def species=
+  def species=(type = "human")
     self.species = "human"
 
   end
