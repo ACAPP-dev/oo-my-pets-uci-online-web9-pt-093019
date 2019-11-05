@@ -6,12 +6,12 @@ class Owner
 
   def initialize(name)
     @name = name
-    self.species = "human"
+    self.species=
   end
 
-  #def species=
-  #  self.species = "human"
-  #end
+  def species=
+    self.species = "human"
+  end
 
 
 
